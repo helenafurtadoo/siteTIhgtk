@@ -17,3 +17,10 @@ function login(){
     }
 
 }
+function sair(){
+
+    sessionStorage.removeItem("logado");
+
+    window.location.href = "login.html";
+
+}
