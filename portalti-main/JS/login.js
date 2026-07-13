@@ -6,6 +6,8 @@ function login(){
 
     if(usuario === "admin" && senha === "123456"){
 
+        sessionStorage.setItem("logado", "sim");
+
         window.location.href = "index.html";
 
     }else{
