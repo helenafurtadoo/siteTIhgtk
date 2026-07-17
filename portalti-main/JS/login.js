@@ -8,7 +8,7 @@ function login(){
 
         sessionStorage.setItem("logado", "sim");
 
-        window.location.href = "index.html";
+        window.location.href = "portal.html";
 
     }else{
 
@@ -21,6 +21,6 @@ function sair(){
 
     sessionStorage.removeItem("logado");
 
-    window.location.href = "login.html";
+    window.location.href = "index.html";
 
 }
