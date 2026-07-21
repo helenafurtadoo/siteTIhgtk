@@ -7,9 +7,9 @@ function login(){
     if(usuario === "admin" && senha === "123456"){
  
         sessionStorage.setItem("logado", "sim");
- 
-        window.location.href = "portal.html";
- 
+
+        window.location.href = "index.html";
+
     }else{
  
         alert("Usuário ou senha incorretos");
@@ -20,9 +20,9 @@ function login(){
 function sair(){
  
     sessionStorage.removeItem("logado");
- 
-    window.location.href = "index.html";
- 
+
+    window.location.href = "login.html";
+
 }
  
  
